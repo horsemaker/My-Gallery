@@ -200,6 +200,14 @@ footer > a {
 }
 
 @media screen and (max-width: 480px) {
+  .gallery {
+    gap: 5vh 0;
+  }
+
+  .artist {
+    margin-top: 3.5vh;
+  }
+
   .artist__profilePhoto {
     width: 27.2vw;
   }
