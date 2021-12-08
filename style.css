@@ -161,4 +161,49 @@ footer > a {
   font-weight: 700;
 }
 
-/* font-family: 'Montserrat', sans-serif; */
+@media screen and (max-width: 480px) {
+  .artist__profilePhoto {
+    width: 27.2vw;
+  }
+
+  .artist__name {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .artist__location {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .stats {
+    gap: 0 3.5vw;
+  }
+
+  .stats__post {
+    width: 78px;
+    height: 52px;
+  }
+
+  .stats__num {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .stats__specification {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .square {
+    width: 29vw;
+  }
+
+  .horizontal-rect {
+    width: 61.3vw;
+  }
+
+  .vertical-rect {
+    width: 29vw;
+  }
+}
