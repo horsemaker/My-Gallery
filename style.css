@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gallery {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10vh 0;
+}
+
+.artist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6vh;
+  gap: 2vh 0;
+}
+
+.artist__profilePhoto {
+  height: 156px;
+  width: 156px;
+  border-radius: 16px;
+}
+
+.artist__details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vh 0;
+}
+
+.artist__name {
+  color: #4e5150;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.artist__location {
+  color: #a9a9a9;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.stats {
+  display: flex;
+  gap: 0 1.5vw;
+}
+
+.stats__post {
+  height: 67px;
+  width: 100px;
+  background: #e5e5e5;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stats__num {
+  color: #4e5150;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.stats__specification {
+  color: #bdbdbd;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.gallery__art {
+  display: flex;
+  flex-direction: column;
+  /* width: 62.4vw; */
+  /* height: 130vh; */
+  /* justify-content: space-between; */
+  gap: 29px 0;
+}
+
+.gallery__boxOne {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 0 29px;
+}
+
+.gallery__boxTwo {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 0 29px;
+}
+
+.gallery__boxThree {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 29px 0;
+}
+
+.gallery__boxFive {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 0 29px;
+}
+
+.square {
+  height: 299px;
+  width: 299px;
+  border-radius: 12px;
+}
+
+.horizontal-rect {
+  height: 299px;
+  width: 629px;
+  border-radius: 12px;
+}
+
+.art__three {
+  width: 627px;
+}
+
+.vertical-rect {
+  height: 630px;
+  width: 299px;
+  border-radius: 12px;
+}
+
+footer {
+  margin-top: 5vh;
+  height: 5vh;
+  color: #b9bdcf;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+
+footer > a {
+  color: #b9bdcf;
+  font-weight: 700;
+}
+
+/* font-family: 'Montserrat', sans-serif; */
