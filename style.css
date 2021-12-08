@@ -161,6 +161,40 @@ footer > a {
   font-weight: 700;
 }
 
+@media screen and (max-width: 800px) {
+  .gallery__art {
+    gap: 3vw 0;
+  }
+
+  .gallery__boxOne {
+    gap: 0 3vw;
+  }
+
+  .gallery__boxTwo {
+    gap: 0 3vw;
+  }
+
+  .gallery__boxThree {
+    gap: 3vw 0;
+  }
+
+  .gallery__boxFive {
+    gap: 0 3vw;
+  }
+
+  .square {
+    width: 29vw;
+  }
+
+  .horizontal-rect {
+    width: 61.3vw;
+  }
+
+  .vertical-rect {
+    width: 29vw;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .artist__profilePhoto {
     width: 27.2vw;
