@@ -23,8 +23,9 @@
 }
 
 .artist__profilePhoto {
-  height: 156px;
+  /* height: 156px; */
   width: 156px;
+  /* width: 10.83vw; */
   border-radius: 16px;
 }
 
@@ -86,58 +87,67 @@
   /* width: 62.4vw; */
   /* height: 130vh; */
   /* justify-content: space-between; */
-  gap: 29px 0;
+  /* gap: 29px 0; */
+  gap: 2.05vw 0;
 }
 
 .gallery__boxOne {
   display: flex;
   /* justify-content: space-between; */
-  gap: 0 29px;
+  /* gap: 0 29px; */
+  gap: 0 2.05vw;
 }
 
 .gallery__boxTwo {
   display: flex;
   /* justify-content: space-between; */
-  gap: 0 29px;
+  /* gap: 0 29px; */
+  gap: 0 2.05vw;
 }
 
 .gallery__boxThree {
   display: flex;
   flex-direction: column;
   /* justify-content: space-between; */
-  gap: 29px 0;
+  /* gap: 29px 0; */
+  gap: 2.05vw 0;
 }
 
 .gallery__boxFive {
   display: flex;
   /* justify-content: space-between; */
-  gap: 0 29px;
+  /* gap: 0 29px; */
+  gap: 0 2.05vw;
 }
 
 .square {
-  height: 299px;
-  width: 299px;
+  /* height: 299px; */
+  /* width: 299px; */
+  width: 20.8vw;
   border-radius: 12px;
 }
 
 .horizontal-rect {
-  height: 299px;
-  width: 629px;
+  /* height: 299px; */
+  /* width: 629px; */
+  width: 43.6vw;
   border-radius: 12px;
 }
 
 .art__three {
-  width: 627px;
+  /* width: 627px; */
+  width: 43.7vw;
 }
 
 .vertical-rect {
-  height: 630px;
-  width: 299px;
+  /* height: 630px; */
+  /* width: 299px; */
+  width: 20.8vw;
   border-radius: 12px;
 }
 
 footer {
-  margin-top: 5vh;
+  margin-top: 3vw;
   height: 5vh;
   color: #b9bdcf;
   font-weight: 500;
