@@ -195,6 +195,26 @@ footer > a {
     line-height: 15px;
   }
 
+  .gallery__art {
+    gap: 3vw 0;
+  }
+
+  .gallery__boxOne {
+    gap: 0 3vw;
+  }
+
+  .gallery__boxTwo {
+    gap: 0 3vw;
+  }
+
+  .gallery__boxThree {
+    gap: 3vw 0;
+  }
+
+  .gallery__boxFive {
+    gap: 0 3vw;
+  }
+
   .square {
     width: 29vw;
   }
